@@ -23,14 +23,14 @@
           <a class="nav-link" href="#"><span><i class="fa-solid fa-address-card mx-2"></i></span> Register</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home page.html"><span><i class="fa-solid fa-house mx-2"></i></span>Home</a>
+          <a class="nav-link " aria-current="page" href="index.html"><span><i class="fa-solid fa-house mx-2"></i></span>Home</a>
         </li>
           
         <li class="nav-item">
           <a class="nav-link" href="#"><span><i class="fa-solid fa-user mx-2"></i></span>About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="location.html"><span><i class="fa-solid fa-location-dot mx-2"></i></span>Location</a>
+          <a class="nav-link active" href="location.html"><span><i class="fa-solid fa-location-dot mx-2"></i></span>Location</a>
         </li>
        
       </ul>
@@ -45,5 +45,16 @@
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245619.73336414495!2d74.36800538780346!3d15.866667838605986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf669f5095362f%3A0x7e34b31edcdefb5f!2sBelagavi%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1670761010894!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 					</div>
+
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              var navbarToggler = document.querySelector(".navbar-toggler");
+              var navbarCollapse = document.querySelector(".navbar-collapse");
+          
+              navbarToggler.addEventListener("click", function () {
+                navbarCollapse.classList.toggle("show");
+              });
+            });
+          </script>
 </body>
 </html>
