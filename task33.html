@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online shop</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+        .handing
+		{
+			color: black;
+			padding-top: 100px;
+		    display:flex;
+		    justify-content: left;
+		    position: relative;
+		    font-size:50px;
+		    margin-right: 35px;
+		    	
+		}
+		nav
+		{
+			width: 100%;
+			height: 75px;
+			line-height: 75px;
+			padding: 0px 100px;
+			position: fixed;
+		
+		}
+		.logo {
+			z-index: 0px;
+			position: fixed;
+				min-width: 50%;
+				min-height: 50%;
+			right: 0;
+			bottom: 0;
+			margin-top: 500px;
+		}
+		nav ul{
+			float:right;
+		}
+		nav li{
+			display: inline-block;
+			list-style: none;
+		}
+		nav li a{
+           font-size:25px;
+           text-transform: uppercase;
+           padding:0px 10px;
+           color: red;
+           text-decoration: none;
+		}
+		nav li a.hover{
+			color: #ff8c69;
+			transition: all 0.4s ease 0;
+		}
+		.content-items img{
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+		}
+		.para{
+			z-index: 1;
+			position: absolute;
+			margin-top: 300px;
+			margin-left: 300px;
+			color: #6b5b95;
+		}
+		.para li{
+			list-style: none;
+			padding: 5px;
+			font-size: 30px;
+			font-weight: 40px;
+			margin-bottom: 20px;
+			color: red;
+		}
+		#text{
+			margin-right:500px;
+			font-size: 80px;
+			font-family: Calibri;
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul class="nav navbar-nav">	
+         <li><a href="#">Electronics</a></li>
+         <li><a href="#">Clothing</a></li>
+         <li><a href="#">Footwear</a></li>
+         <li><a href="#">Furniture</a></li>
+      </ul>
+      <h1 id="text">Online shopping</h1>
+    </nav>
+    <ul class="para">
+    <li><a href="#" style="color: red">Recent</a></li>
+         <li><a href="#" style="color: red">Updates</a></li>
+         <li><a href="#" style="color: red">Upcoming events</a></li>
+   </ul>
+		<div class="logo">
+			<section id="#main">			
+			<video src="shop2.mp4"muted autoplay loop></video>
+		</div>
+    <div class="bg-img">
+    </div>
+
+</body>
+</html>
